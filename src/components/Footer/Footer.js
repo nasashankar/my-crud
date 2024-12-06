@@ -1,4 +1,5 @@
 import React from "react";
+import './Footer.css';
 import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
@@ -26,19 +27,19 @@ const Footer = () => {
             href="#about"
             style={{ color: "white", textDecoration: "none", fontSize: "14px" }}
           >
-            About Us
+            <Link to="/aboutus">About Us</Link>
           </a>
           <a
             href="#services"
             style={{ color: "white", textDecoration: "none", fontSize: "14px" }}
           >
-            Services
+             <Link to="/services">Services</Link>
           </a>
           <a
             href="#contact"
             style={{ color: "white", textDecoration: "none", fontSize: "14px" }}
           >
-            Contact
+            <Link to="/contactus">Contact</Link>
           </a>
         </div>
 
