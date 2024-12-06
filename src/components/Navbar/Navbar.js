@@ -1,7 +1,45 @@
-import React from 'react'
-import "./Navbar.css"
-export default function Navbar() {
+import Container from 'react-bootstrap/Container';
+import { Link } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+import Offcanvas from 'react-bootstrap/Offcanvas';
+
+function OffcanvasExample() {
   return (
-    <div className='navbar'>Login / Register</div>
-  )
+    <>
+      {['xxl'].map((expand) => (
+        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
+          <Container fluid>
+            
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-${expand}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              placement="end"
+            >
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                  Media Audition
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                <Nav className="justify-content flex-grow-1 pe-3">
+                  <Nav.Link href="home">Home</Nav.Link>
+                  <Nav.Link href="#action2">About Us</Nav.Link>
+                  <Nav.Link href="#action2">Services</Nav.Link>
+                  <Nav.Link href="#action2">Contacts</Nav.Link>
+               
+                </Nav>
+                
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
+            <div className='Left_navbar'><Link to="/Login">Login</Link> /  <Link to="/Register">Register</Link></div>
+          </Container>
+        </Navbar>
+      ))}
+    </>
+  );
 }
+
+export default OffcanvasExample;

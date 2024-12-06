@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer
@@ -20,7 +20,7 @@ const Footer = () => {
             href="#home"
             style={{ color: "white", textDecoration: "none", fontSize: "14px" }}
           >
-            Home
+           <Link to="/home"> Home</Link>
           </a>
           <a
             href="#about"
@@ -44,7 +44,7 @@ const Footer = () => {
 
         {/* Copyright Section */}
         <p style={{ marginTop: "20px", fontSize: "12px" }}>
-          © {new Date().getFullYear()} Your Company Name. All Rights Reserved.
+          © {new Date().getFullYear()} Media Audition. All Rights Reserved.
         </p>
       </div>
     </footer>

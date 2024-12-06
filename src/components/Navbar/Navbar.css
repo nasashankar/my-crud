@@ -5,3 +5,12 @@
     text-align: right;
     color: #f8f8f8;
 }
+.Right_navbar
+{
+    float: left;
+    color: #fff;
+}
+.Left_navbar a
+{
+    color: #fff;
+}

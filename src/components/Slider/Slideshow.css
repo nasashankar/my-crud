@@ -14,11 +14,19 @@
   
   .slideshow-image {
     width: 100%;
-    height: 650px;
+    height: 550px;
     object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
     transition: opacity 1s ease-in-out;
   }
   
+  @media only screen and (max-width: 768px) {
+    .slideshow-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+    transition: opacity 1s ease-in-out;
+  }
+}
   .slideshow-controls {
     position: absolute;
     bottom: 20px;
