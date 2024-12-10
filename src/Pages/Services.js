@@ -66,7 +66,7 @@ export default function Services() {
       <section className="services-cta">
         <h2>Get Started Today</h2>
         <p>Join the Media Audition platform today and start exploring endless possibilities for your career or project. Whether you're an artist or a director, we’ve got the tools you need to succeed.</p>
-        <button className="cta-button">Sign Up Now</button>
+        <button className="cta-button" >Sign Up Now</button>
       </section>
     </div>
         <Footer/>

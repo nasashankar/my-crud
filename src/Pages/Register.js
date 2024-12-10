@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Register.css';
 import Banner from '../components/Banner/Banner'
-
+import { Link } from 'react-router-dom';
 import Footer from '../components/Footer/Footer'
 import Navbar from '../components/Navbar/Navbar'
 const Register = () => {
@@ -61,7 +61,7 @@ const Register = () => {
     <Banner/>  
     <Navbar/>   
     <div className="register-container">
-      <h2>Register</h2>
+      <h4>Register</h4>
       {error && <p className="error-message">{error}</p>}
       {successMessage && <p className="success-message">{successMessage}</p>}
 
@@ -93,6 +93,7 @@ const Register = () => {
             required
           />
         </div>
+        
 
         <div className="form-group">
           <label htmlFor="email">Email Address</label>
@@ -147,6 +148,7 @@ const Register = () => {
         </div>
 
         <button type="submit" className="submit-button">Register</button>
+        <p>If you alrady registered Please <Link to="/Login">login</Link> here...</p>
       </form>
     </div>
     <Footer/>

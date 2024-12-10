@@ -16,7 +16,7 @@ export default function AboutUs() {
           directors and casting professionals.
         </p>
         <img 
-          src="https://via.placeholder.com/1200x400?text=Media+Audition" 
+          src="https://png.pngtree.com/thumb_back/fw800/background/20230524/pngtree-images-of-people-sharing-to-connect-with-one-another-image_2611523.jpg" 
           alt="Media Audition Banner" 
           className="about-us-banner"
         />
@@ -29,7 +29,7 @@ export default function AboutUs() {
             At <strong>Media Audition</strong>, we believe that talent should always find its way to the right audience. Whether you're an actor, voice artist, musician, model, or any other type of performer, we provide a space for you to showcase your skills to directors, casting agents, and production teams worldwide.
           </p>
           <img 
-            src="https://via.placeholder.com/600x400?text=Our+Mission" 
+            src="https://s.studiobinder.com/wp-content/uploads/2020/04/What-is-an-Art-Director-in-Film-Job-Description-Explained-Featured-1568x882.jpg" 
             alt="Our Mission" 
             className="section-image"
           />
@@ -56,7 +56,7 @@ export default function AboutUs() {
             </li>
           </ul>
           <img 
-            src="https://via.placeholder.com/600x400?text=For+Artists" 
+            src="https://www.velents.com/wp-content/uploads/2023/07/633f2b25bc326e0842191fe7_ArtDirector-job-description.jpeg" 
             alt="For Artists" 
             className="offer-image"
           />
@@ -76,7 +76,7 @@ export default function AboutUs() {
             </li>
           </ul>
           <img 
-            src="https://via.placeholder.com/600x400?text=For+Directors" 
+            src="https://www.shutterstock.com/image-photo/art-director-checking-photos-on-600nw-1247570584.jpg" 
             alt="For Directors" 
             className="offer-image"
           />
@@ -90,7 +90,7 @@ export default function AboutUs() {
             We envision a world where talent and opportunity meet effortlessly. By connecting the right artists with the right projects, we hope to empower both sides of the creative industry and contribute to bringing innovative ideas to life.
           </p>
           <img 
-            src="https://via.placeholder.com/600x400?text=Our+Vision" 
+            src="https://media.voguebusiness.com/photos/5d7bbb0a4dc95a00087a33a2/master/w_1600%2Cc_limit/celebrity-started-brands-credit-getty-images-wide.jpg" 
             alt="Our Vision" 
             className="section-image"
           />
@@ -107,7 +107,7 @@ export default function AboutUs() {
             At <strong>Media Audition</strong>, we’re dedicated to building a community that supports creative growth and professional development. Join us today and start connecting with the people who can help take your career to the next level.
           </p>
           <img 
-            src="https://via.placeholder.com/600x400?text=Join+Us" 
+            src="https://www.pngitem.com/pimgs/m/608-6085696_wie-membership-for-ieee-student-members-is-free.png" 
             alt="Join Us" 
             className="section-image"
           />
